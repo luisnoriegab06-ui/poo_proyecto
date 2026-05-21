@@ -16,4 +16,4 @@ if __name__ == "__main__":
     # El sistema arranca obligatoriamente por la pantalla de seguridad
     login = VentanaLogin(root, on_success=iniciar_aplicacion_principal)
     
-    root.mainloop()
+    root.mainloop() 

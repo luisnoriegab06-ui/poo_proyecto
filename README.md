@@ -23,3 +23,11 @@ Persistencia de Datos e Interfaz
 * Interfaz Gráfica: Desarrollada en tkinter con ventanas funcionales, uso de formularios con ComboBox, DateEntry y tablas dinámicas (Treeview).
 * Validaciones: Control de campos vacíos y formatos numéricos correctos con alertas en pantalla (messagebox).
 * Persistencia: Guardado, lectura automática al abrir y eliminación de registros directamente en un archivo de Excel (concesionaria.xlsx) usando la librería openpyxl.
+
+Instrucciones para compilar el Ejecutable (.exe)
+1. Se instaló la herramienta en el entorno virtual con el comando: 
+   pip install pyinstaller
+2. Se ejecutó el comando de compilación apuntando al punto de entrada del programa: 
+   pyinstaller --windowed --onefile main.py
+   Nota: Se usó --windowed para ocultar la consola del sistema y --onefile para generar un único archivo distribuible.
+3. El archivo final .exe se genera automáticamente dentro de la carpeta /dist.
